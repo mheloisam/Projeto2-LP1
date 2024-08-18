@@ -90,7 +90,7 @@ int main() {
             std::getline(std::cin, nomeOrigem);
             std::cout << "Digite o nome da cidade de destino: ";
             std::getline(std::cin, nomeDestino);
-            std::cout << "Digite o número de passageiros: ";
+            std::cout << "Digite o numero de passageiros: ";
             std::cin >> numPassageiros;
             std::cin.ignore();
             for (int i = 0; i < numPassageiros; ++i) {
@@ -105,7 +105,7 @@ int main() {
         case 6:
         {
             int horas;
-            std::cout << "\nDigite o número de horas a avançar: ";
+            std::cout << "\nDigite o numero de horas a avancar: ";
             std::cin >> horas;
             controlador.avancarHoras(horas);
             break;
