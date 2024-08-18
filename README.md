@@ -1,15 +1,6 @@
 # Sistema Controlador de Viagens
 
-## 1. Estrutura do Projeto:
-#### - cidade.hpp/cidade.cpp: Define e implementa a classe Cidade.
-#### - trajeto.hpp/trajeto.cpp: Define e implementa a classe Trajeto.
-#### - transporte.hpp/transporte.cpp: Define e implementa a classe Transporte.
-#### - passageiro.hpp/passageiro.cpp: Define e implementa a classe Passageiro.
-#### - viagem.hpp/viagem.cpp: Define e implementa a classe Viagem.
-#### - controlador_de_transito.hpp/controlador_de_transito.cpp: Define e implementa a classe ControladorDeTransito.
-#### - main.cpp: Contém a função principal (main) e a lógica de interação com o usuário.
-
-## 2. Compilação e Execução:
+## 1. Compilação e Execução:
 ### Compilação
 #### Abra o Prompt de Comando ou Windows Terminal
 g++ -o sistema_viagens.exe main.cpp cidade.cpp trajeto.cpp transporte.cpp passageiro.cpp viagem.cpp controlador_de_transito.cpp
@@ -17,7 +8,7 @@ g++ -o sistema_viagens.exe main.cpp cidade.cpp trajeto.cpp transporte.cpp passag
 #### Após a compilação, execute o programa com:
 sistema_viagens.exe
 
-## 3. O que foi implementado:
+## 2. O que foi implementado:
 #### Cadastro de Cidades
 #### Cadastro de Trajetos
 #### Cadastro de Transportes
@@ -35,7 +26,7 @@ sistema_viagens.exe
 ####  - Relatar onde está cada transporte (cidade ou em trânsito)
 ####  - Relatar todas as viagens em andamento
 
-## 4. O que não foi implementado:
+## 3. O que não foi implementado:
 #### Persistência de dados: Os dados não são salvos em arquivos e serão perdidos quando o programa for encerrado.
 #### Gestão de viagens:
 ####  - A implementação para calcular o melhor trajeto considerando conexões intermediárias (viagens conectadas) não está completa.
