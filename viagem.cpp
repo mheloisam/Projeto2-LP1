@@ -17,11 +17,6 @@ void Viagem::avancarHoras(int horas) {
         horasEmTransito += horas;
         
         int tempoTotal = transporte->calcularTempoTotal(origem, destino);
-        
-        if (tempoTotal < 0) {
-            std::cout << "Distancia entre as cidades nao encontrada.\n";
-            return;
-        }
 
         std::cout << "Horas em transito: " << horasEmTransito << ", Tempo total necessario: " << tempoTotal << std::endl;
 
